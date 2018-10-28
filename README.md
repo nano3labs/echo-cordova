@@ -7,17 +7,21 @@ This example project demonstrates how to create and extension for Cordova that u
 1.
 
 ```
-git clone <this repo>
-git clone <plugin in repo>
+git clone <echo-cordova repo>
+git clone <echo-cordova-plugin>
 ```
 
-You should now have `./EchoCordova`, `./EchoCordovaPlugin`.
+You should now have `./echo-cordova`, `./echo-cordova-plugin`.
+
+Repos:
+* https://github.com/nano3labs/echo-cordova
+* https://github.com/nano3labs/echo-cordova-plugin
 
 2.
 ```
-cd ./EchoCordova
+cd ./echo-cordova
 cordova platform add ios
-cordova plugin add /full/path/to/EchoCordovaPlugin
+cordova plugin add /full/path/to/echo-cordova-plugin
 cordova build ios
 ```
 
@@ -30,4 +34,10 @@ Open `platforms/ios/EchoCordova.xcworkspace` in xcode and run either on the devi
 * remove and add plugin if you make changes to OBJ-C code and remember to build cordova again (as per above)
 * debug using xcode debugger to step through code OBJ-C code
 * debug using safari remote debugger to step through Javascript code or see errors
+
+## References
+
+* https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/
+* https://cordova.apache.org/docs/en/latest/guide/platforms/ios/plugin.html
+* https://github.com/apache/cordova-plugin-camera
 
