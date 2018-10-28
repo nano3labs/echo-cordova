@@ -1,0 +1,30 @@
+{
+    "name": "com.nano3labs.echocordova",
+    "displayName": "EchoCordova",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "com.nano3labs.EchoCordovaPlugin.echo": "/Users/mike/projects/experiments/EchoCordovaPlugin",
+        "com.nano3labs.echocordovaplugin": "file:../EchoCordovaPlugin",
+        "cordova-ios": "^4.5.5",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "echo": "/Users/mike/projects/experiments/EchoCordovaPlugin"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "com.nano3labs.EchoCordovaPlugin": {},
+            "echo": {},
+            "com.nano3labs.EchoCordovaPlugin.echo": {}
+        },
+        "platforms": [
+            "ios"
+        ]
+    }
+}
