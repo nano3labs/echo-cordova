@@ -1,8 +1,8 @@
 # Cordova Echo Extension
 
-This example project demonstrates how to create and extension for Cordova that uses native code.
+This example project demonstrates how to create and extension for Cordova that uses Objective-C native code.
 
-For the Objective-C version go to https://github.com/nano3labs/echo-cordova-swift
+For the Swift version go to https://github.com/nano3labs/echo-cordova-swift
 
 ## Install
 
