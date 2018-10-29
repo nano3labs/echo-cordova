@@ -2,6 +2,8 @@
 
 This example project demonstrates how to create and extension for Cordova that uses native code.
 
+For the Objective-C version go to https://github.com/nano3labs/echo-cordova-swift
+
 ## Install
 
 1.
